@@ -6,8 +6,8 @@
   "scripts": {
 	"test": "echo \"Error: no test specified\" && exit 1",
 	"printenv": "printenv",
-	"postinstall": "printenv",
-	"postinstall2": "npm install --save --prefix ../../app/vendor ./titanium"
+	"postinstall2": "printenv",
+	"postinstall": "npm install --save --prefix ../../app/vendor ./titanium"
   },
   "repository": {
     "type": "git",
