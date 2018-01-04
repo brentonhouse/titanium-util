@@ -1,6 +1,6 @@
 {
-  "name": "titanium-util",
-  "version": "0.0.2-2",
+  "name": "@titanium/util",
+  "version": "0.0.2-3",
   "alias": "util",
   "cdn": "http://github.brentonhouse.com/titanium-util/packages",
   "description": "",
@@ -8,7 +8,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "printenv": "printenv",
-    "postinstall": "npm install --save --prefix ../../app/vendor ${npm_package_cdn}/${npm_package_alias}-${npm_package_version}.tgz",
+    "postinstall": "npm install --save --prefix ../../../app/vendor ${npm_package_cdn}/${npm_package_alias}-${npm_package_version}.tgz",
     "package": "titanium-packager"
   },
   "repository": {
