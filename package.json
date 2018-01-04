@@ -1,13 +1,15 @@
 {
   "name": "titanium-util",
-  "version": "0.0.1",
+  "version": "0.0.2-2",
+  "alias": "util",
+  "cdn": "http://github.brentonhouse.com/titanium-util/packages",
   "description": "",
   "main": "index.js",
   "scripts": {
-	"test": "echo \"Error: no test specified\" && exit 1",
-	"printenv": "printenv",
-	"postinstall2": "npm install --save --prefix ../../app/vendor ./util",
-	"postinstall": "pushd app/vendor && npm install ../../node_modules/titanium-util/util"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "printenv": "printenv",
+    "postinstall": "npm install --save --prefix ../../app/vendor ${npm_package_cdn}/${npm_package_alias}-${npm_package_version}.tgz",
+    "package": "titanium-packager"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/brentonhouse/titanium-util/issues"
   },
-  "homepage": "https://github.com/brentonhouse/titanium-util#readme"
+  "homepage": "https://github.com/brentonhouse/titanium-util#readme",
+  "devDependencies": {
+    "eslint": "^4.14.0",
+    "eslint-plugin-jsdoc": "^3.3.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "titanium-packager": "github:brentonhouse/titanium-packager"
+  }
 }
