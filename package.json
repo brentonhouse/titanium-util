@@ -1,10 +1,10 @@
 {
   "name": "@titanium/util",
-  "version": "0.0.2-5",
+  "version": "0.0.2-6",
   "alias": "util",
   "cdn": "http://github.brentonhouse.com/titanium-util/packages",
   "description": "",
-  "main": "index.js",
+  "main": "titanium-util.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "printenv": "printenv",
