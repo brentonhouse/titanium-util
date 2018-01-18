@@ -1,6 +1,6 @@
 {
   "name": "@titanium/util",
-  "version": "0.0.2-12",
+  "version": "0.1.0",
   "alias": "util",
   "description": "",
   "main": "titanium-util.js",
