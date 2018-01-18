@@ -1,6 +1,6 @@
 {
   "name": "@titanium/util",
-  "version": "0.0.2-7",
+  "version": "0.0.2-8",
   "alias": "util",
   "description": "",
   "main": "titanium-util.js",
@@ -23,5 +23,8 @@
     "eslint": "^4.14.0",
     "eslint-plugin-jsdoc": "^3.3.0",
     "eslint-plugin-promise": "^3.6.0"
+  },
+  "mobile": {
+    "alias": "util"
   }
 }
