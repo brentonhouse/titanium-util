@@ -2,7 +2,7 @@
 *
 
 # But not these files...
-titanium-util.js
+!titanium-util.js
 
 # ...even if they are in subdirectories
 !*/
