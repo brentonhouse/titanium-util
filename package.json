@@ -1,30 +1,34 @@
 {
-  "name": "@titanium/util",
-  "version": "0.1.0",
-  "alias": "util",
-  "description": "",
-  "main": "titanium-util.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0",
-    "printenv": "printenv",
-    "_postinstall": "npm install --save --prefix ../../../app/vendor ${npm_package_cdn}/${npm_package_alias}-${npm_package_version}.tgz"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/brentonhouse/titanium-util.git"
-  },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/brentonhouse/titanium-util/issues"
-  },
-  "homepage": "https://github.com/brentonhouse/titanium-util#readme",
-  "devDependencies": {
-    "eslint": "^4.14.0",
-    "eslint-plugin-jsdoc": "^3.3.0",
-    "eslint-plugin-promise": "^3.6.0"
-  },
-  "mobile": {
-    "alias": "util"
-  }
+	"name": "@titanium/util",
+	"version": "0.1.1-0",
+	"alias": "util",
+	"description": "",
+	"main": "titanium-util.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 0",
+		"printenv": "printenv",
+		"_postinstall": "npm install --save --prefix ../../../app/vendor ${npm_package_cdn}/${npm_package_alias}-${npm_package_version}.tgz"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/brentonhouse/titanium-util.git"
+	},
+	"author": {
+		"name": "Brenton House",
+		"email": "brenton.house@gmail.com",
+		"url": "https://brenton.house"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/brentonhouse/titanium-util/issues"
+	},
+	"homepage": "https://github.com/brentonhouse/titanium-util#readme",
+	"devDependencies": {
+		"eslint": "^4.14.0",
+		"eslint-plugin-jsdoc": "^3.3.0",
+		"eslint-plugin-promise": "^3.6.0"
+	},
+	"mobile": {
+		"alias": "util"
+	}
 }
