@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/util",
-	"version": "0.2.0",
+	"version": "0.3.0",
 	"alias": "util",
 	"description": "Titanium polyfill for Node.js util",
 	"main": "titanium-util.js",
