@@ -1,13 +1,12 @@
 {
 	"name": "@titanium/util",
-	"version": "0.1.1-0",
+	"version": "0.2.0",
 	"alias": "util",
-	"description": "",
+	"description": "Titanium polyfill for Node.js util",
 	"main": "titanium-util.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 0",
-		"printenv": "printenv",
-		"_postinstall": "npm install --save --prefix ../../../app/vendor ${npm_package_cdn}/${npm_package_alias}-${npm_package_version}.tgz"
+		"printenv": "printenv"
 	},
 	"repository": {
 		"type": "git",
@@ -30,5 +29,8 @@
 	},
 	"mobile": {
 		"alias": "util"
+	},
+	"publishConfig": {
+		"access": "public"
 	}
 }

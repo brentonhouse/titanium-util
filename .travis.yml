@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+- '8'
+deploy:
+  provider: npm
+  email: brenton.house@gmail.com
+  api_key:
+    secure: dDKgHfxFrLNZOXovs2wPtXqwCE8wQyvu1sk/VlQygwdfpcf0wyZEPYXZLmDlQAFFlp0cvHcjR4aefStD4d4Xsu9XHRPTPJhZ9aG6fIrrhZ4EDFKyswsL/Ug648HLp7VdVQIvzG0BjunwYL7hQYy11auy+SMwQoXsUTCeQsl6QjHCMqiteHksxaZ9czDzDbEIfy3vVU3wLpsrk1zVKIVMAAGZDcGUl2Z0amuSPYhGssVxNW55xoWptS2l6smvXiFWfcVWhaTuM0J6u10sYIm/PMgXgRHieURgqF6zue+a7qaKEBClyMdN8djlmUjtbJJBrp3RtifdOCi3fRCWRhh1vRaim4+R4kwvSt2Fvcy3jSnN+VvYlZmbMTY66i55uspyt2y6eMLHO7iMBuNFrxoFp4al5i8TbqvBn0ydp8J+t8o7SDH3q7hoFUZ9sKQWIbL6HvIzR0v+kTwGkaHTcPk4BWcvpJOtO7I6EFElM5XvZdW1aNyJSYoFw8MvLPwt45YrquaX0z8m1FC6/1fpY8PwPUmtus12zomRF80F0bC/hIlNwtlyHv3+jNOZf1/v/Qfk90mHqsC9V2ed0PsX5Xcb3pmLzHVMkehO9N33SDsUQUjMYuYOBPHhRcdbUlVhFMo+3SXu9rOanN6AvxpguKh5vndDh7v5beBqwqFKE01euqA=
+  on:
+    tags: true
+    repo: brentonhouse/titanium-util
+  branches:
+    only:
+    - master
