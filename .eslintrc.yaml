@@ -150,7 +150,7 @@ rules:
         - 'HACK:'
         - 'FIXME:'
   valid-jsdoc:
-    - warn
+    - off
     - prefer:
         arg: param
         argument: param
