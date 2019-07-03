@@ -1,17 +1,10 @@
-<h3 align="center">
-  <img src="https://cdn.secure-api.org/images/nativeloop_logo_text_256.png" alt="nativeloop logo" />
-</h3>
+# @titanium/util
 
- <div align="center">⚡ Developing native mobile apps just got a whole lot more awesome ⚡</div>
 
----
+[![@titanium/util](https://img.shields.io/npm/v/@titanium/util.png)](https://www.npmjs.com/package/@titanium/util)
 
-# @titanium/fs
 
-[![npm version](https://badge.fury.io/js/%40titanium%2Futil.svg)](https://badge.fury.io/js/%40titanium%2Futil)
-[![](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)]()
-
->Titanium polyfill for Node.js util - based on [Node.js util](https://nodejs.org/api/util.html) 
+>Titanium native mobile polyfill for Node.js util - based on [Node.js util](https://nodejs.org/api/util.html) 
 
 ## Need Help?
 

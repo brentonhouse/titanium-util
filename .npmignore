@@ -2,3 +2,5 @@ docs/
 scripts/
 titanium/
 .eslintrc.yaml
+node_modules
+/plugins

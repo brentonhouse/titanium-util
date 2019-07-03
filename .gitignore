@@ -33,6 +33,10 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+
+# Output of 'npm pack'
+*.tgz
+
 # Yarn Integrity file
 .yarn-integrity
 
@@ -55,22 +59,5 @@ fastlane/test_output
 
 # other
 .map
-
-
 .fastdev.lock
-.mapResources
-.settings
-.settings/*
-.settings/com.appcelerator.titanium.core.prefs
-.settings/com.appcelerator.titanium.mobile.prefs
-README
-com.appcelerator.titanium.core.prefs
-
-
-LICENSE
-dev.js
-app/assets/android/testing/
-app/assets/iphone/testing/
-app/assets/images/testing/
-plugins/ti.alloy
-
+dist/*

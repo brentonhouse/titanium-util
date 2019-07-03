@@ -1,12 +1,12 @@
 {
 	"name": "@titanium/util",
-	"version": "0.3.2",
-	"alias": "util",
-	"description": "Titanium polyfill for Node.js util",
+	"version": "0.5.0",
+	"description": "Titanium native mobile polyfill for Node.js util",
 	"main": "titanium-util.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 0",
-		"printenv": "printenv"
+		"printenv": "printenv",
+		"list-files": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz"
 	},
 	"repository": {
 		"type": "git",
@@ -23,12 +23,10 @@
 	},
 	"homepage": "https://github.com/brentonhouse/titanium-util#readme",
 	"devDependencies": {
-		"eslint": "^4.14.0",
+		"@titanium/eslint-config": "0.0.8",
+		"eslint": "^6.0.1",
 		"eslint-plugin-jsdoc": "^3.3.0",
 		"eslint-plugin-promise": "^3.6.0"
-	},
-	"mobile": {
-		"alias": "util"
 	},
 	"publishConfig": {
 		"access": "public"
